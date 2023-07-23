@@ -25,6 +25,9 @@ Following keywords are acceptable in the template:
 Template language is based on [Nunjucks](https://mozilla.github.io/nunjucks/templating.html#builtin-filters),
 so its syntax and built-in filters are also available.
 
+There is also a good [video review and demonstration](https://www.youtube.com/watch?v=44vV7Tr484Q) of the plugin, made by 
+Curtis McHale.
+
 ## License
 
 MIT
