@@ -1,7 +1,7 @@
 {
     "id": "zotero-link",
     "name": "Zotero Link",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minAppVersion": "0.12.0",
     "description": "Insert link to Zotero items from Obsidian interface using Zotero Bridge",
     "author": "Shmavon Gazanchyan",
