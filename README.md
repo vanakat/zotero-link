@@ -2,13 +2,24 @@
 
 ## Prerequisites
 
-1. [ZotServer](https://github.com/MunGell/ZotServer) addon installed in your local Zotero application
-2. [Zotero Bridge](https://github.com/vanakat/zotero-bridge) plugin installed in Obsidian
+### Zotero >= 7
+
+Enable Local API feature in settings: `Zotero 7 > Settings > Advanced > Allow other applications on this computer to communicate with Zotero`
+
+### Zotero <= 6
+
+Install Zotero addon [ZotServer](https://github.com/MunGell/ZotServer)
+
+## Installation
+
+Install [zotero-bridge](https://github.com/vanakat/zotero-bridge) and this plugin from Obsidian Community Plugins settings screen.
 
 ## Usage
 
 When this plugin installed it adds new command to the Command Palette: `Zotero Link: Insert`.
-Exact text of the link can be changed with template configuration in settings.
+You can add a keyboard shortcut for this command in Obsidian settings.
+
+Exact text of the link can be changed with template configuration in plugin settings.
 
 Following keywords are acceptable in the template:
 
