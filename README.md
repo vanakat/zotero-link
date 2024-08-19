@@ -4,7 +4,15 @@
 
 ### Zotero >= 7
 
-Enable Local API feature in settings: `Zotero 7 > Settings > Advanced > Allow other applications on this computer to communicate with Zotero`
+Enable Local API feature in settings
+
+1. Open the `Edit` menu in the menu bar
+2. Open the `Advanced` tab
+3. Enable `Allow other applications on this computer to communicate with Zotero`
+4. Click `Config Editor` button at the bottom
+5. Click `Accept Risk and Continue` at a popup window
+6. Enter `security.external_protocol_requires_permission` as search input
+7. Double click on the string to change value to `false`
 
 ### Zotero <= 6
 
