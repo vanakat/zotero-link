@@ -25,6 +25,7 @@ Following keywords are acceptable in the template:
 
 * `{{ key }}` – Zotero item key
 * `{{ title }}` – item title
+* `{{ shortTitle }}` – item short title
 * `{{ date.year }}` – publication year e.g. 2011
 * `{{ date.month }}` – publication month  e.g. 10
 * `{{ date.day }}` – publication day e.g. 31

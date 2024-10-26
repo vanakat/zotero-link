@@ -39,6 +39,7 @@ export class ZoteroLinkSettingTab extends PluginSettingTab {
         const keywordList = availableKeywords.createEl('ul');
         keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ key }} - Zotero item key' }));
         keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ title }} - item title' }));
+        keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ shortTitle }} - item short title' }));
         keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ date.year }} - publication year e.g. 2011'}));
         keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ date.month }} - publication month  e.g. 10' }));
         keywordList.appendChild(availableKeywords.createEl('li', { text: '{{ date.day }} - publication day e.g. 31' }));
