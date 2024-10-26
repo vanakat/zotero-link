@@ -1,6 +1,6 @@
 {
     "name": "zotero-link",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Insert link to Zotero items from Obsidian interface using Zotero Bridge",
     "main": "main.js",
     "private": true,
